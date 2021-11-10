@@ -3,7 +3,7 @@ package main
 const spanish = "Spanish"
 const french = "French"
 const spanishHelloPrefix = "Hola, "
-const frenchHelloPrefix = "Salut, "
+const frenchHelloPrefix = "Bonjour, "
 const englishHelloPrefix = "Hello, "
 
 func Hello(name string, language string) string {
