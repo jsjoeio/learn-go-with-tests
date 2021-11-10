@@ -15,6 +15,15 @@ func Hello(name string, language string) string {
 
 	return greetingPrefix(language) + name
 }
+
+// Notice in this function we don't define prefix
+// in the function body
+// but we do create a _named return value_ with `(prefix string)`
+// this creates a variable called prefix inside our function
+// so cool!!
+//
+// Another thing to note is private functions start with a lowercase letter
+// while public functions start with a capital one.
 func greetingPrefix(language string) (prefix string) {
 	switch language {
 	case french:
