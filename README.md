@@ -8,5 +8,4 @@ https://quii.gitbook.io/learn-go-with-tests/
 
 Might be a good idea to come up with a bunch of mini examples and tests to practice using the standard library.
 
-
-Stopped at "We need a new function called SumAll which will take a varying number of slices, returning" on https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/arrays-and-slices
+Stopped at "Decoupling" in Structs
