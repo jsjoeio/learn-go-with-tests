@@ -2,11 +2,6 @@
 
 https://quii.gitbook.io/learn-go-with-tests/
 
-- [x] Hello world
-- [x] Integers
-- [x] Iteration
-- [ ] Arrays and Slices
-
 ## Notes
 
 > Have a look through the [strings](https://pkg.go.dev/strings) package. Find functions you think could be useful and experiment with them by writing tests like we have here. Investing time learning the standard library will really pay off over time.
