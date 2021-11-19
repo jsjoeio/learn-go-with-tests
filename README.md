@@ -5,6 +5,7 @@ https://quii.gitbook.io/learn-go-with-tests/
 - [x] Hello world
 - [x] Integers
 - [x] Iteration
+- [ ] Arrays and Slices
 
 ## Notes
 
