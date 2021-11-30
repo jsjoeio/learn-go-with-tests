@@ -8,4 +8,5 @@ https://quii.gitbook.io/learn-go-with-tests/
 
 Might be a good idea to come up with a bunch of mini examples and tests to practice using the standard library.
 
-Stopped at "Decoupling" in Structs
+
+Stopped at Pointers & errors "Write the test first"
