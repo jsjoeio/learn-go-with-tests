@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"errors"
+	"fmt"
+)
 
 type Bitcoin int
 
@@ -14,6 +17,15 @@ type Wallet struct {
 
 func (w *Wallet) Deposit(amount Bitcoin) {
 	w.balance += amount
+}
+
+func (w *Wallet) Withdraw(amount Bitcoin) error {
+	if amount > w.balance {
+		return errors.New("cannot withdraw, insufficient funds")
+	}
+
+	w.balance -= amount
+	return nil
 }
 
 // the * lets us point to the wallet we're using with these funcs
