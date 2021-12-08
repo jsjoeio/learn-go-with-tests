@@ -8,4 +8,4 @@ https://quii.gitbook.io/learn-go-with-tests/
 
 Might be a good idea to come up with a bunch of mini examples and tests to practice using the standard library.
 
-Stopped at "We have duplication of the error message in both the test code and the Withdraw code."
+Stopped at "should not modify existing values." in Maps
